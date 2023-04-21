@@ -281,7 +281,7 @@
     padding: 1rem 3rem;
     font-size: 1.7rem;
     color: white;
-    background-color: black;
+    background-color: var(--primary);
     cursor: pointer;
   }
   
