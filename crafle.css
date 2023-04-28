@@ -18,7 +18,6 @@
   }
     
   *{
-  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -346,12 +345,46 @@
     html{
       font-size: 75%;
     }
+
+    .about .row{
+      flex-wrap: wrap;
+    }
+  
+    .about .row .about-img img{
+      height: 42rem;
+      object-fit: cover;
+      object-position:center;
+    }
+  
+    .about .row .content{
+      padding: 0;
+      position:relative;
+    }
+  
+    .about .row .content h3{
+      font-size: 1.8rem;
+    }
+  
+    .about .row .content p{
+      font-size: 1.3rem;
+    }
+    
+  
+    
+  
+
+    
   }
   
   /*Tablet*/
   @media (max-width: 768px){
     html{
      font-size: 62.5%;
+    }
+    
+    .hero{
+      position: relative;
+      
     }
   
     #menu{
