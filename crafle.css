@@ -346,28 +346,9 @@
       font-size: 75%;
     }
 
-    .about .row{
-      flex-wrap: wrap;
-    }
-  
-    .about .row .about-img img{
-      height: 42rem;
-      object-fit: cover;
-      object-position:center;
-    }
-  
-    .about .row .content{
-      padding: 0;
-      position:relative;
-    }
-  
-    .about .row .content h3{
-      font-size: 1.8rem;
-    }
-  
-    .about .row .content p{
-      font-size: 1.3rem;
-    }
+   
+
+   
     
   
     
