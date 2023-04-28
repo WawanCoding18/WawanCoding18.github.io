@@ -346,24 +346,6 @@
       font-size: 75%;
     }
 
-   
-
-   
-    
-  
-    
-  
-
-    
-  }
-
-   /*Khusus mobile dekstop*/
-
-   @media (max-width: 1280px){
-    html{
-      font-size: 62% ;
-    }
-
     .about .row{
       flex-wrap: wrap;
     }
@@ -377,19 +359,9 @@
     .about .row .content{
       padding: 0;
     }
-
-    
-  
-  
-   
-    
-  
-    
-  
-
     
   }
-    
+
   /*Tablet*/
   @media (max-width: 768px){
     html{
