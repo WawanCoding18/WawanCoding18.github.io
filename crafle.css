@@ -361,7 +361,7 @@
 
    @media (max-width: 1280px){
     html{
-      font-size: 62.5% ;
+      font-size: 62% ;
     }
 
     .about .row{
@@ -378,6 +378,16 @@
       padding: 0;
       position:relative;
     }
+
+    .about .row .content h3{
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+  
+    .about .row .content p{
+      font-size: 1.5rem;
+    }
+  
   
    
     
