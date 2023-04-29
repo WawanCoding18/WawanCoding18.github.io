@@ -419,6 +419,16 @@
     .about .row .content{
       padding: 0;
     }
+
+    .about .row .content h3{
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+  
+    .about .row .content p{
+      font-size:  1.5rem;
+    }
+    
   
     
   
