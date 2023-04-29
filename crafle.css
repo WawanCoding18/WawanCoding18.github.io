@@ -350,6 +350,14 @@
       flex-wrap: wrap;
     }
 
+    .about .row .content h3{
+      margin-top: 1rem;
+      font-size: 1.5vw;
+    }
+  
+    .about .row .content p{
+      font-size: 1vw;
+    }
     
   }
 
