@@ -349,7 +349,14 @@
     .about .row{
       flex-wrap: wrap;
     }
-    
+    .about .row .content h3{
+      margin-top: 0.6rem;
+      font-size: 1.5vmax;
+    }
+  
+    .about .row .content p{
+      font-size: 1.1vmax;
+    }
   }
 
   /*Tablet*/
