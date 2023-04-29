@@ -349,14 +349,16 @@
     .about .row{
       flex-wrap: wrap;
     }
+
     .about .row .content h3{
-      margin-top: 0.6rem;
-      font-size: 1.5vmax;
+      margin-top: 1rem;
+      font-size: 1vw;
     }
   
     .about .row .content p{
-      font-size: 1.1vmax;
+      font-size: 1vw;
     }
+    
   }
 
   /*Tablet*/
@@ -418,14 +420,7 @@
       padding: 0;
     }
   
-    .about .row .content h3{
-      margin-top: 1rem;
-      font-size: 2rem;
-    }
-  
-    .about .row .content p{
-      font-size: 1.5rem;
-    }
+    
   
     .bar p{
       font-size: 1.2rem;
