@@ -349,16 +349,6 @@
     .about .row{
       flex-wrap: wrap;
     }
-  
-    .about .row .about-img img{
-      height: 42rem;
-      object-fit: cover;
-      object-position:center;
-    }
-  
-    .about .row .content{
-      padding: 0;
-    }
     
   }
 
