@@ -4,6 +4,7 @@ const navbarNav = document.querySelector('.navbar-nav');
 //ketika icon Menu di klik//
 document.querySelector('#menu').onclick = () =>{
     navbarNav.classList.toggle('active')
+    
 }
 
 //Toggle class active untuk search form menu//
@@ -61,6 +62,12 @@ document.querySelector('.modal .close-icon').onclick = (e) => {
     e.preventDefault();
 }
 
+//Klik tombol diluar modal//
+window.onclick = (e) => {
+    if (e.target === itemDetailModal){
+        itemDetailModal.style.display='none';
+    }
+}
 
 
 
