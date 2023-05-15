@@ -548,7 +548,17 @@
     margin-top: 1.2rem;
    }
 
-  
+   .modal-content a{
+    display: flex;
+    gap: 1rem;
+    width: 12rem;
+    background-color: var(--primary);
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+
+
+   }
 
    
    /*Item Detail*/

@@ -61,12 +61,6 @@ document.querySelector('.modal .close-icon').onclick = (e) => {
     e.preventDefault();
 }
 
-//Klik tombol diluar modal//
-window.onclick = (e) => {
-    if (e.target === itemDetailModal){
-        itemDetailModal.style.display='none';
-    }
-}
 
 
 
