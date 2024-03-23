@@ -125,6 +125,7 @@ document.addEventListener('alpine:init', () => {
            } else{
              item.quantity--;
              item.total = item.price * item.quantity;
+             this.quantity--;
              this.total -= item.price
              return item;
            }
@@ -134,6 +135,7 @@ document.addEventListener('alpine:init', () => {
         this.items = this.items.filter((item) => item.id !== id)
         this.quantity--;
         this.total-=cartItem.price;
+        return item;
       }
     }
   });
