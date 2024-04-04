@@ -180,17 +180,17 @@ checkoutButton.addEventListener('click', async function(e){
    const message = formatMessage(objData)
    window.open('https://wa.me/6285876009918?text= '+ encodeURIComponent(message))
   
-  //minta transaction token menggunakan ajax / fetc
-  try{
-      const response = await fetch('php/craffle.php',{
-        method: "POST",
-        body: data,
-      });
-      const token = await response.text()
-      window.snap.pay(token)
-  }catch (err){
-    console.log(err.message)
-  }
+  // //minta transaction token menggunakan ajax / fetc
+  // try{
+  //     const response = await fetch('php/craffle.php',{
+  //       method: "POST",
+  //       body: data,
+  //     });
+  //     const token = await response.text()
+  //     window.snap.pay(token)
+  // }catch (err){
+  //   console.log(err.message)
+  // }
 
   });
 
