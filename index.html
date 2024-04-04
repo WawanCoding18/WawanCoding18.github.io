@@ -19,6 +19,11 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
   <script src="app.js"></script>
+  
+    <!--midtrans-->
+   <script type="text/javascript"
+		src="https://app.stg.midtrans.com/snap/snap.js"
+    data-client-key="Mid-client-2t0i4Kxk9V6AnqGW"></script>
 
 </head>
 <body>
@@ -74,9 +79,11 @@
 
     <div class="form-container" x-show="$store.cart.items.length">
 
-      <form action="" id="checkoutForum">
+      <form action="" id="checkoutForm">
+        <input type="hidden" name="items" x-model = "JSON.stringify($store.cart.items)">
+        <input type="hidden" name="total" x-model = "$store.cart.total">
         <h5>Customer Detail</h5>
-
+         
        <label for="name">
         <span>Name</span>
         <input type="text" name="name" id="name"></input>
@@ -92,7 +99,7 @@
         <input type="number" name="phone" id="phone"></input>
        </label>
 
-       <button class="checkout-button" type="submit" id="checkout-button" value="checkout">Checkout</button>
+       <button class="checkout-button disabled" type="submit" id="checkout-button" value="checkout">Checkout</button>
        
       </form>
     </div>
@@ -314,7 +321,7 @@
 
      <!--Javascript -->
     <script src="crafle.js"></script>
-     <script src="app.js"></script>
+     <script src="app.js" ></script>
 
 </body>
 </html>
